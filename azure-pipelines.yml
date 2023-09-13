@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'docker'
-        repository: 'basvantrao/azure'
-        command: 'build'
+        repository: 'ganesh/Docker-image-perforce'
+        command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
