@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'docker'
-        repository: 'Devops/dockerrepo'
+        repository: 'basvantrao/azure'
         command: 'build'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
